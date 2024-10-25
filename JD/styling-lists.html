@@ -9,7 +9,12 @@
 
       html {
         font-family: Helvetica, Arial, sans-serif;
-        font-size: 10px;
+        font-size: 12px;
+	color: Tomato;
+      }
+
+      b {
+      color: Red
       }
 
       h2 {
@@ -22,6 +27,15 @@
 
       li, p {
         line-height: 1.5;
+      }
+
+      a:link {
+      color: green;
+      text-decoration: none;
+      }
+
+      a:visited {
+      color: pink;
       }
 
       /* Unordered list styles */
@@ -65,15 +79,16 @@
     <ul>
       <li>Humous</li>
       <li>Pitta</li>
+      <li><b>Bold Pitta</b></li>
       <li>Green salad</li>
       <li>Halloumi</li>
     </ul>
 
-    <h2>Recipe (ordered) list</h2>
+    <h2><a href="styling-lists.html" target="_blank">Recipe</a> (ordered) list</h2>
 
     <p>Paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference.</p>
 
-    <ol start="4">
+    <ol start="1">
       <li>Toast pitta, leave to cool, then slice down the edge.</li>
       <li>Fry the halloumi in a shallow, non-stick pan, until browned on both sides.</li>
       <li>Wash and chop the salad.</li>
@@ -93,8 +108,12 @@
       <dd>A semi-hard, unripened, brined cheese with a higher-than-usual melting point, usually made from goat/sheep milk.</dd>
       <dt>Green salad</dt>
       <dd>That green healthy stuff that many of us just use to garnish kebabs.</dd>
+      <dt>Chicken</dt>
+      <dd>Comes from a bird</dd>
     </dl>
 
+    <a href="pitta.jpg" target="_blank"><img src='pitta.jpg' alt="A picture of some pitta bread"></a>
+    <img src="hummus.jpg" alt="A picture of hummus">
 
   </body>
 </html>
